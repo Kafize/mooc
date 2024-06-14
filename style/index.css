@@ -1,0 +1,90 @@
+
+
+.card{
+    background-color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #999; 
+    padding:5px 1rem;
+}
+.card-title{
+    color: #333;
+    margin-right: 5px;
+    font-size: 14px;
+   
+}
+.text-center{
+    text-align: center;
+}
+.card-content>p{
+    padding: 2px 0;
+}
+
+.card-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+.carousel-img>img{
+    width: 750px;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 5px;
+}
+.green-button{
+    width: 168px;
+    height: 32px;
+    border-radius: 18px;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: #00cc7e;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+}
+.tuji{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+    padding: 5px 0;
+}
+.tuji img{
+    border-radius: 5px;
+}
+.broadcast-title{
+    font-size: 28px;
+    padding-right:50px;
+}
+.broadcast-list{
+    display: flex;
+    gap: 20px;
+}
+.broadcast-top{
+    display: flex;
+    justify-content: start;
+    align-items:baseline;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.broadcast-bottom{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.broadcast-item{
+    display: flex;
+    padding: 1rem;
+    gap: 10px;
+}

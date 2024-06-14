@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    transition: .3s;
+    text-decoration: underline;
+    color: #FA7584;
+}
+.main-width {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+header {
+   
+    height: 55px;
+    padding: 5px 0;
+    background-color: #fff;
+}
+
+.container {
+    background-color: #F5F5F5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
